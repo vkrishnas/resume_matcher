@@ -1,0 +1,27 @@
+// features
+
+1.Open the Resume and analyze it
+2.Take the Job Description as an input from the user
+3.Perform matching operation
+4.Return the Match Percentage
+5.Return the Keywords that are missing in Ones Resume (v1)
+
+
+// txt file
+
+1.install scikit-learn
+2.import sklearn.feature_extraction.text import TfidfVectorizer
+3.Create a TfidfVectorizer object 
+4.use fit_transform() to actually create a tfid matrix with scores
+5.convert it to a list using toarray
+6.from sklearn.metrics.pairwise import cosine_similarity
+
+
+// pdf file
+
+1.Install pymupdf
+2.import fitz
+3.use load_page to load page which returns a page object
+4.use page method named get_text to get text 
+5.open a new file and append the data
+6.use encoding='utf-8' to get rid of fonting exceptions or errors
