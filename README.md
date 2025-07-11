@@ -1,4 +1,4 @@
-#resume_matcher  
+# resume_matcher  
 
 
 📄 AI-Powered Resume Matcher 🔍 Match Your Resume to Any Job Description in Seconds This web app uses Natural Language Processing (NLP) techniques to score how well a resume matches a given job description and highlights missing technical skills that are required in the job but not found in the resume.
